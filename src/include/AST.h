@@ -6,7 +6,8 @@ typedef struct AST_STRUCT {
         AST_VARIABLE_DEFINITION,
         AST_VARIABLE,
         AST_FUNCTION_CALL,
-        AST_STRING
+        AST_STRING,
+        AST_COMPOUND
     }type;
 
     // AST VARIABLE DEFINITION
