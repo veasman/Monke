@@ -1,2 +1,2 @@
-var name = "foo bar";
-print(name);
+var name = "foo bar"\n
+print(name)\n
