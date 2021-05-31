@@ -1,0 +1,18 @@
+class Monke [
+  $ This is a comment (?)
+
+  var num = 1; $ just like js var (Constant)
+  bool loop = TRUE; $ Variables + booleans get a bit wonky from time to time so why not make a new one?
+  while loop [
+    if num > 1 or num == 0.5 (
+      num - 0.5; $ Simple math
+    ] else [
+      print("Number is lower than 1 or equal to .5!\n"); $ Probably add automatic newline after print but thats pure cosmetic.
+      loop = FALSE;
+    ]
+  ]
+]
+
+$ This is by no means the end product and shouldn't be seen as one,
+$ it's just a suggestion.
+$ [] look unique but also weird. {} is definitely an option. (Or just go PEP-style)
