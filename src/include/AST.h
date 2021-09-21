@@ -9,7 +9,8 @@ typedef struct AST_STRUCT {
         AST_VARIABLE,
         AST_FUNCTION_CALL,
         AST_STRING,
-        AST_COMPOUND
+        AST_COMPOUND,
+        AST_NOOP
     }type;
 
     struct SCOPE_STRUCT* scope;
@@ -41,5 +42,6 @@ typedef struct AST_STRUCT {
 }AST_T;
 
 AST_T* init_ast(int type);
+
 #endif
 

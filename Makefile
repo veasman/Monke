@@ -1,4 +1,4 @@
-exec = Monke.out
+exec = monke.out
 sources = $(wildcard src/*.c)
 objects = $(sources:.c=.o)
 flags = -g
@@ -11,7 +11,7 @@ $(exec): $(objects)
 
 install:
 	make
-	cp ./Monke.out /usr/local/bin/Monke
+	cp ./monke.out /usr/local/bin/monke
 
 clean:
 	-rm *.out

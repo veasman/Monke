@@ -38,5 +38,6 @@ AST_T* parser_parse_variable_definition(parser_t* parser, scope_t* scope);
 AST_T* parser_parse_string(parser_t* parser, scope_t* scope);
 
 AST_T* parser_parse_id(parser_t* parser, scope_t* scope);
+
 #endif
 
