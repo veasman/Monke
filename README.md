@@ -18,8 +18,13 @@
 ```bash
 git clone https://github.com/veasman/Monke.git
 cd Monke
-make install
-monke <file>
+sudo make install
+```
+
+## Usage
+- File must end in ".monke"
+```bash
+monke <FILE HERE>
 ```
 
 ## FAQ
