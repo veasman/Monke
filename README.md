@@ -13,13 +13,20 @@
   </p>
 </p>
 
-## FAW
+<img src="./res/code.png">
+
+## Installation
+```bash
+git clone https://github.com/veasman/Monke.git
+cd Monke
+make install
+monke <file>
+```
+
+## FAQ
 
 ### What is Monke?
 Monke is a programming language I made because I had nothing better to do, and it was a learning experience.
 
 ### What is it for?
 Programming simple and a little more advanced programs.
-
-### Why?
-See answer to "What is it for?"
