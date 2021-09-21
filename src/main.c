@@ -31,10 +31,12 @@ int main(int argc, char* argv[]) {
         }
     }
     else {
+        printf("Welcome to the Monke language!\n- veasman\n\n");
+
         char input[MAX_LIMIT];
         while (1) {
-            printf("Welcome to the monke language\n\n- veasman\n");
-            fgets(input,MAX_LIMIT, stdin);
+            printf("> ");
+            fgets(input, MAX_LIMIT, stdin);
             lexer_t* lexer = init_lexer(input);
             parser_t* parser = init_parser(lexer);
             AST_T* root = parser_parse(parser, parser->scope);
