@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/veasman/Monke">
-    <img src="./res/monke.png" width="250" height="250">
+    <img src="./res/monke.png">
   </a>
 
   <h3 align="center">Monke</h3>
