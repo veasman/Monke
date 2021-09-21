@@ -6,6 +6,9 @@ parser_t* init_parser(lexer_t* lexer) {
     parser_t* parser = calloc(1, sizeof(struct PARSER_STRUCT));
     parser->lexer = lexer;
     parser->current_token = lexer_get_next_token(lexer);
+    parser->prev_token = parser->current_token;
+
+    parser->scope = init_scope();
 
     return parser;
 }
