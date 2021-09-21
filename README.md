@@ -13,8 +13,10 @@
   </p>
 </p>
 
+## FAW
+
 ### What is Monke?
-Monke is a joke of a programming language made by a few friends and I. It is meant to be a learning experience.
+Monke is a programming language I made because I had nothing better to do, and it was a learning experience.
 
 ### What is it for?
 Programming simple and a little more advanced programs.
