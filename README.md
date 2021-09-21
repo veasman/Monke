@@ -13,7 +13,7 @@
   </p>
 </p>
 
-<img src="./res/code.png">
+<img src="./res/monke.png" width="150" height="150" align="center">
 
 ## Installation
 ```bash
