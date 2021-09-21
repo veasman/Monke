@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/veasman/Monke">
-    <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/282/monkey_1f412.png" width="100" height="100">
+    <img src="./res/monke.png" width="250" height="250">
   </a>
 
   <h3 align="center">Monke</h3>
@@ -12,7 +12,6 @@
     <a href="https://monke.readthedocs.io"><strong>« Explore the docs »</strong></a>
   </p>
 
-  <img src="./res/monke.png" width="150" height="150">
 </p>
 
 ## Installation
