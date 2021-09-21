@@ -1,0 +1,6 @@
+func writeLine(input)
+{
+    print(input);
+};
+
+writeLine("Function called");
