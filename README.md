@@ -11,9 +11,9 @@
     <br />
     <a href="https://monke.readthedocs.io"><strong>« Explore the docs »</strong></a>
   </p>
-</p>
 
-<img src="./res/monke.png" width="150" height="150" align="center">
+  <img src="./res/monke.png" width="150" height="150">
+</p>
 
 ## Installation
 ```bash
