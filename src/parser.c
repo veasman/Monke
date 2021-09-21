@@ -203,12 +203,13 @@ AST_T* parser_parse_id(parser_t* parser, scope_t* scope) {
     // Checking if we are trying to define a varable
     // Naming for this will change later
 
-    // If we are defining a variable
-    if (strcmp(parser->current_token->value, "var") == 0) {
+    // Variable definition
+    if (strcmp(parser->current_token->value, "mon") == 0) {
         return parser_parse_variable_definition(parser, scope);
     }
     else
-    if (strcmp(parser->current_token->value, "function") == 0) {
+    // Function definition
+    if (strcmp(parser->current_token->value, "func") == 0) {
         return parser_parse_function_definition(parser, scope);
     }
     else {
